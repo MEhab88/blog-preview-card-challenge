@@ -1,0 +1,107 @@
+body {
+    background-color: hsl(47, 88%, 63%);
+}
+
+.main {
+    border: 1px black solid;
+    background-color: white;
+    overflow: auto;
+    max-width: 200px;
+    height: 259px;
+    border-radius: 10px;
+    padding: 11px;
+    word-spacing: 1px;
+    margin: auto;
+    position: relative;
+    top: 55px;
+}
+
+.img {
+    margin-top: 3px;
+    width: 198px;
+    height: 116px;
+    top: 11px;
+    position: absolute;
+    border-radius: 11px;
+}
+
+.main a {
+    color: hsl(228, 45%, 44%);
+}
+
+.title {
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.para {
+    display: block;
+    font-size: 11px;
+}
+
+.Learning {
+    background-color: hsl(47, 88%, 63%);
+    width: fit-content;
+    font-size: 10px;
+    padding: 5px;
+    font-size: 8px;
+    padding: 4px;
+    border-radius: 4px;
+    font-family: "Figtree", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
+
+p {
+    font-family: "Figtree", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 9px;
+    position: relative;
+    top: 116px;
+}
+
+.p1 {
+    font-weight: 800;
+    font-size: 12px;
+}
+
+.someone {
+    position: absolute;
+    top: 250px;
+    margin-left: 5px;
+    left: 14%;
+    font-weight: 800;
+}
+
+.img1 {
+    background-image: url('image-avatar.webp');
+    background-size: cover;
+    position: absolute;
+    width: 20px;
+    background-repeat: no-repeat;
+    height: 20px;
+    left: 4%;
+    top: 254px;
+}
+
+.main:hover {
+    border-bottom: 7px;
+    border-right: 7px;
+    border-style: solid;
+    border-color: black;
+}
+
+.p1:hover {
+    color: hsl(47, 88%, 63%);
+    font-weight: 900;
+    cursor: pointer;
+}
+
+.opa {
+    opacity: 0.5;
+}
